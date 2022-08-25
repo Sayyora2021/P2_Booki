@@ -1,0 +1,130 @@
+/* Style pour mobile */
+
+
+.marglogo{
+ width: 100%;
+ display: flex;
+ justify-content: center;
+}
+.right{
+ gap:100px;
+ width:100%;
+}
+.nav_lien{
+    padding-bottom: 10px;
+}
+.nav_lien:hover{
+ border-top: none;
+ border-bottom: 1px solid blue;
+}
+.buttonSearch{
+ display: none;
+}
+.loupe{
+ display: flex;
+ border: 2px solid #f2f2f2;
+ height: 50px;
+ border-radius: 30px;
+ margin-right: 20px;
+}
+.search{
+ margin: -2px;
+border-radius: 10px 10px 10px 10px;
+width: 52px;
+height: 52px;
+color: #deebff;
+background-color: #0065fc;
+}
+.loupe:hover >.search{
+ color: #0065fc;
+ background-color:#deebff;
+}
+
+.info{
+ border-radius: 20px;
+ height: 32px;
+ width: 32px;
+}
+.margFiltre{
+ margin-top: 10px;
+ margin-bottom: 20px;
+}
+
+.texteInfo{
+ padding-right: 0px;
+ padding-left: 10px;
+ padding-bottom: 10px;
+}
+.filtreTexte{
+padding-left: 10px;
+}
+#hotels{
+ flex-direction: column-reverse;
+ }
+#hotels>div{
+ padding-bottom: 10px;
+ padding-top: 0.5px;
+ }
+ .populairesCom> img{
+    border-radius: 10px 0 0 10px;
+    width: 50%;
+    height: 150px;
+    object-fit: cover;
+ }
+ .cartePop{
+     width:100%
+ }
+.carteOne{
+ display: flex;
+ flex-direction: column;
+ margin-bottom: 0px;
+ }
+.carte{
+ width:100%;
+ margin-bottom: 10px;
+ height: 190px;
+ }
+ .carte> img{
+     height: 70%;
+ }
+.carteTwo{
+ display: flex;
+ flex-direction: column; 
+}
+#activités{
+    margin-top: 0px;
+}
+.blocActiv a{
+ border-radius: 20px 20px 20px 20px;
+ box-shadow: 0 0 16px lightslategrey;
+ height: 180px; 
+ width:100%;
+ margin-bottom: 10px; 
+ margin-left: 10px;
+ margin-right: 10px;
+ }
+.blocActiv img{
+ width: 100%;
+ border-radius: 20px 20px 0 0;
+ height: 70%;
+ object-fit: cover;  
+}
+.colonne{
+  gap:0px;  
+  width:100%;
+  margin-right: 20px;
+  height: 380px;
+}
+
+.liste{
+    display: flex;
+    flex-direction: column;
+    height:50%
+}
+.colonneFoot{
+    height: 120px;
+    margin-left: 10px;
+}
+.colonneFoot p{
+    margin:0.1px;
+}
